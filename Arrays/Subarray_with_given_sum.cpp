@@ -35,15 +35,10 @@ Testcase2: sum of elements from 1st position to 5th position is 15.
 Testcase 3: Sum of elements from 1st to 4th position is 15.
 */
 
-// { Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
 
-
- // } Driver Code Ends
-
-
-// Function to find the subarray with given sum k
+ // Function to find the subarray with given sum k
 // arr: input array
 // n: size of array
 void subarraySum(int arr[], int n, int s){
@@ -78,7 +73,6 @@ void subarraySum(int arr[], int n, int s){
     
 }
 
-// { Driver Code Starts.
 
 int main()
  {
@@ -99,4 +93,4 @@ int main()
         
     }
 	return 0;
-}  // } Driver Code Ends
+} 

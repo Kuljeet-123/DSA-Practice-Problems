@@ -32,13 +32,8 @@ Testcase 1: Array elements after sorting it in wave form are 2 1 4 3 5.
 Testcase 2: Array elements after sorting it in wave form are 4 2 8 7 10 9.
 */
 
-// { Driver Code Starts
 #include<bits/stdc++.h>
 using namespace std;
-
-
- // } Driver Code Ends
-
 
 // Function to convert given array to wave like array
 // arr: input array
@@ -65,8 +60,6 @@ void convertToWave(int *arr, int n){
     
 }
 
-// { Driver Code Starts.
-
 int main()
 {
     int t,n;
@@ -85,4 +78,4 @@ int main()
             
         cout<<endl;
     }
-}  // } Driver Code Ends
+} 

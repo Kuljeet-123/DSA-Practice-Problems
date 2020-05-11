@@ -44,13 +44,8 @@ Testcase 1: After merging two non-decreasing arrays, we have, 0 1 2 3 5 6 7 8 9.
 Testcase 2: After merging two sorted arrays , we have 5 10 12 18 20.
 */
 
-// { Driver Code Starts
 #include <bits/stdc++.h> 
 using namespace std; 
-
-
- // } Driver Code Ends
-
 
 // Function to merge two input arrays
 // arr1[], arr2[]: input arrays
@@ -90,8 +85,6 @@ void merge(int arr1[], int arr2[], int n, int m)
 }
 
 
-// { Driver Code Starts.
-
 int main() 
 { 
 	
@@ -126,4 +119,3 @@ int main()
 
 	return 0; 
 } 
-  // } Driver Code Ends

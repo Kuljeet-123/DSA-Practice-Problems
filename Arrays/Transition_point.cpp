@@ -26,7 +26,6 @@ Output
 3
 */
 
-// { Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -45,7 +44,7 @@ int main() {
         cout << transitionPoint(a, n) << endl;
     }
     return 0;
-}// } Driver Code Ends
+}
 
 
 

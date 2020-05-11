@@ -36,14 +36,8 @@ Testcase 2: arr[0] = 4 and arr[arr[0]] = 3. Also, arr[1] = 0 and arr[arr[1]] = 4
 Testcase 3: arr[0] = 3 and arr[arr[0]] = 1. Also, arr[1] = 2 and arr[arr[1]] = 0 and so on. So, rearranging elements, we get array as 1 0 3 2.
 */
 
-// { Driver Code Starts
 #include<bits/stdc++.h>
 using namespace std;
-
-
- // } Driver Code Ends
-
-
     
 // Function to rarrange the elements in O(1) extra space
 // arr: input array
@@ -62,9 +56,6 @@ void arrange(long long arr[], int n) {
     
 }
 
-
-// { Driver Code Starts.
-
 int main(){
     int t;
     cin>>t;
@@ -82,4 +73,4 @@ int main(){
         cout<<endl;
     }
     return 0;
-}  // } Driver Code Ends
+} 

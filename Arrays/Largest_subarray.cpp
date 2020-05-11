@@ -28,7 +28,6 @@ Explanation:
 Testacase 1: The array from index [0...3] contains equal number of 0's and 1's. Thus maximum length of subarray having equal number of 0's and 1's is 4.
 */
 
-// { Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -46,10 +45,7 @@ int main() {
         cout << maxLen(a, n) << endl;
     }
     return 0;
-}// } Driver Code Ends
-
-
-/*You are required to complete this method*/
+}
 int maxLen(int arr[], int n) {
     // Your code here
       int i, maxLen = 0;

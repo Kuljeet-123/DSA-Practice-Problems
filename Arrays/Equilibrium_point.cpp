@@ -33,11 +33,9 @@ Testcase 1: Since its the only element hence its the only equilibrium point.
 Testcase 2: For second test case equilibrium point is at position 3 as elements below it (1+3) = elements after it (2+2).
 */
 
-// { Driver Code Starts
 #include <iostream>
 using namespace std;
 
-// Position this line where user code will be pasted.
 
 int equilibriumPoint(long long a[], int n);
 
@@ -59,9 +57,6 @@ int main() {
     }
     return 0;
 }
-// } Driver Code Ends
-
-
 // Function to find equilibrium point
 // a: input array
 // n: size of array

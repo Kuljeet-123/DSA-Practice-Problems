@@ -33,8 +33,6 @@ Testcase 2: All elements appear only once so -1 is printed.
 Tescase 3:  The element 1 appears more than 1 times and is the first element to do so. So, we print its index 1.
 */
 
-// { Driver Code Starts
-//Initial template for C++
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -64,8 +62,6 @@ int main(){
 
     return 0;
 }
-// } Driver Code Ends
-
 
 //User function template in C++
 

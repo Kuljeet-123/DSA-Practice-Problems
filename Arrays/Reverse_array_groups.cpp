@@ -40,12 +40,10 @@ Testcase 3: Our array is 5 6 8 9. The value of k is 7. After reversing, it becom
 Testcase 4: Our array is 1 2 3 4 5 6 7 8. The value of k is 3. After reversing, it becomes 3 2 1 6 5 4 8 7.
 */
 
-// { Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
 
 
- // } Driver Code Ends
 
 
 // Function to reverse the array in groups
@@ -67,7 +65,6 @@ vector<long long> reverseInGroups(vector<long long> mv, int n, int k){
     return mv;
 }
 
-// { Driver Code Starts.
 
 int main() {
     
@@ -104,4 +101,3 @@ int main() {
     }
 
 }
-  // } Driver Code Ends

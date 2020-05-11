@@ -31,13 +31,9 @@ Explanation:
 Testcase 1: Smallest positive missing number is 6.
 Testcase 2: Smallest positive missing number is 2.
 */
-// { Driver Code Starts
+
 #include<bits/stdc++.h>
 using namespace std;
-
-
- // } Driver Code Ends
-
 
 // Function to find missing integer in array
 // arr: input array
@@ -73,7 +69,6 @@ int findMissing(int arr[], int n) {
   return n+1;    
 }
 
-// { Driver Code Starts.
 
 int main() { 
     int t;
@@ -88,4 +83,4 @@ int main() {
         cout<<findMissing(arr, n)<<endl;
     }
     return 0; 
-}   // } Driver Code Ends
+}

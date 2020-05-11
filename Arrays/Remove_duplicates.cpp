@@ -27,11 +27,10 @@ Output
 1 2
 */
 
-// { Driver Code Starts
+
 #include<bits/stdc++.h>
 using namespace std;
 
-/*You are required to complete this function */
 
 int remove_duplicate(int [],int );
 
@@ -56,10 +55,8 @@ int main()
     cout<<endl;
     }
 }
-// } Driver Code Ends
 
 
-/*You are required to complete this function */
 int remove_duplicate(int A[],int n)
 {
 //Your code here
