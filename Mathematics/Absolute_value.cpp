@@ -28,7 +28,6 @@ Testcase 1: Since -32 is negative, we prints its positive equavalent, i.e., 32
 Testcase 1: Since 45 is positive, we prints its value as it is, i.e., 45
 */
 
-// { Driver Code Starts
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -44,8 +43,7 @@ int main() {
         cout << absolute(I) << endl; // print the output
     }
     return 0;
-}// } Driver Code Ends
-
+}
 
 // User function Template for C++
 

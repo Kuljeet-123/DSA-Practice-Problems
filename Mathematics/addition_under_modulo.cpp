@@ -31,18 +31,9 @@ Testcase 2: 1000000007 + 1000000007  = ‭(2000000014‬)mod(109+7) = 0
 
 */
 
-// { Driver Code Starts
-//Initial Template for C++
-
 
 #include <bits/stdc++.h>
 using namespace std;
-
-
- // } Driver Code Ends
-
-
-//User function Template for C++
 
 
 int sumUnderModulo(long long a,long long b)
@@ -55,9 +46,6 @@ int sumUnderModulo(long long a,long long b)
   return sum;
 }
 
-// { Driver Code Starts.
-
-
 int main() {
 	int T;
 	cin>>T;
@@ -69,4 +57,4 @@ int main() {
 	    cout<<sumUnderModulo(a,b)<<endl;
 	}
 	return 0;
-}  // } Driver Code Ends
+}
